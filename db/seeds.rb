@@ -10,10 +10,10 @@ puts 'destroying ya items'
 Item.destroy_all
 
 puts 'creating ya items'
-Item.create(name: 'cups', price: 1.00)
-Item.create(name: 'lemons', price: 2.00)
-Item.create(name: 'ice', price: 0.50)
-Item.create(name: 'sugar', price: 3.00)
+Item.create(name: 'cups', price: 1.00, quantity: 50)
+Item.create(name: 'lemons', price: 2.00, quantity: 5)
+Item.create(name: 'ice', price: 0.50, quantity: 100)
+Item.create(name: 'sugar', price: 3.00, quantity: 10)
 
 puts 'destroying ya recipes'
 Recipe.destroy_all

@@ -22,16 +22,16 @@ easy_recipe = Recipe.create(price: 1.00, lemons: 1, ice: 1, sugar: 1)
 
 sample_score = Score.create(name: 'Bill Gates', profit: 1000000)
 
-Score.create(name: 'wefqwef', profit: 123, days: 7)
-Score.create(name: 'weqcqcecccqwec', profit: 456, days: 7)
-Score.create(name: 'rrrrrrrr', profit: 789, days: 7)
-Score.create(name: 'rtyjyujy', profit: 101, days: 7)
-Score.create(name: 'bruh', profit: 112, days: 7)
+Score.create(name: 'Jim', profit: 123, days: 7)
+Score.create(name: 'John', profit: 456, days: 7)
+Score.create(name: 'Jake', profit: 789, days: 7)
+Score.create(name: 'Jeff', profit: 101, days: 7)
+Score.create(name: 'Joe', profit: 112, days: 7)
 
-Score.create(name: 'Be', profit: 131, days: 14)
-Score.create(name: 'yo', profit: 141, days: 14)
-Score.create(name: 'nc', profit: 56765, days: 14)
-Score.create(name: 'e', profit: 87654, days: 14)
-Score.create(name: 'mofo', profit: 9653, days: 14)
+Score.create(name: 'Bill', profit: 131, days: 14)
+Score.create(name: 'Brad', profit: 141, days: 14)
+Score.create(name: 'Burt', profit: 56765, days: 14)
+Score.create(name: 'Bob', profit: 87654, days: 14)
+Score.create(name: 'Bo', profit: 9653, days: 14)
 
 
